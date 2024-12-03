@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Documentation Summarizer",
+  "version": "1.0",
+  "description": "Summarize documentation with Gemini AI to extract key information and use cases.",
+  "permissions": ["contextMenus", "scripting", "activeTab", "clipboardWrite"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_title": "Documentation Summarizer",
+    "default_popup": "popup.html"
+  },
+  "host_permissions": ["<all_urls>"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
