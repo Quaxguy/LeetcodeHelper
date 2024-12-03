@@ -25,8 +25,8 @@ DocuSummarizer is a Chrome extension that provides summarized explanations, defi
 
 #### **1. Clone the Repository**
 ```bash
-git clone https://github.com/your-username/docu-summarizer.git
-cd docu-summarizer
+git clone https://github.com/Quaxguy/LeetcodeHelper
+
 ```
 
 #### **2. Add the API Key**
